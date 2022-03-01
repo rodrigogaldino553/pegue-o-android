@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="colorPrimaryDark">#388E3C</color> <!-- [ VERDE - 700 ] -->
+   <color name="colorPrimary">#4CAF50</color> <!-- [ VERDE - 500 ] -->
+   <color name="colorPrimaryLight">#B2DFDB</color> <!-- [ VERDE-AZULADO - 100 ] -->
+   <color name="colorAccent">#69F0AE</color> <!-- [ VERDE - A200 ] -->
+   <color name="textColorPrimary">#212121</color>
+   <color name="textColorSecondary">#727272</color>
+   <color name="text">#FFFFFF</color>
+   <color name="icons">#FFFFFF</color>
+   <color name="divider">#B6B6B6</color>
+   <color name="colorControlNormal">@color/textColorSecondary</color>
+   <color name="colorControlActivated">@color/colorAccent</color>
+   <color name="colorControlHighlight">@color/divider</color>
+   <color name="windowBackground">#C0C3C6</color>
+   <color name="lightBackground">#E0E0E0</color>
+   <color name="darkBackground">#424242</color>
+   <color name="drawerBackground">#FFfafafa</color>
+   <color name="rowBackground">#F2F2F2</color>
+
+</resources>

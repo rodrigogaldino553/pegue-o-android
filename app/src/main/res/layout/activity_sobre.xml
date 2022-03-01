@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView 
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:gravity="center">
+
+        	<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Pegue o Android"
+				android:textSize="28dp"
+				android:textStyle="bold"
+				android:textColor="#9E9E9E"/>
+
+			<ImageView
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:src="@drawable/andro"
+				android:background="#00eeeeee"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Versão remake-2.1"
+				android:textSize="10dp"
+				android:textColor="#9E9E9E"
+				android:layout_marginBottom="27dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="   Esse game foi desenvolvido com o intuito de aprendizagem de um conteúdo de programação android que estava estudando, o jogo não foi feito para ser comercializado, apenas para que eu pudesse aplicar e praticar o que havia estudado. Mesmo assim eu gostaria que ouvesse um grande número de downloads, e para isso conto com sua ajuda para compartilhar com alguém o link do game.\n
+				   Futuramente pretendo desenvolver coisas melhores, até por que esse aqui é o remake do primeiro jogo que fiz, só que usando uma ferramenta onde eu apenas desenhava na tela e montava bloquinhos na lógica.
+				\n   Se você quer falar comigo, o meu contato está ai em baixo, clicando em *feedback* você é direcionado para o e-mail com o meu endereço lá. Clicando em youtube você vai para o meu canal.\n
+				\n           Obrigado por jogar;)"
+				android:textSize="18dp"
+				android:padding="6dp"
+				android:textColor="#424242"/>
+				
+			<Button
+			    android:id="@+id/btnTube"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:paddingTop="25dp"
+			    android:paddingBottom="10dp"
+			    android:background="#00ffffff"
+			    android:text="YouTube"
+			    android:textSize="15dp"
+			    android:textColor="#FF4183E7"
+			    android:onClick="goTube"/>
+			
+			<Button
+			    android:id="@+id/howPlay"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:paddingTop="20dp"
+			    android:paddingBottom="10dp"
+			    android:background="#00ffffff"
+			    android:text="Como Jogar"
+			    android:textSize="15dp"
+			    android:textColor="#FF4183E7"
+			    android:onClick="how"/>
+			
+			<Button
+				android:id="@+id/insta"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingBottom="-10dp"
+				android:text="Instagram"
+				android:textSize="15dp"
+				android:background="#00ffffff"
+				android:textColor="#FF4183E7"
+				android:onClick="follow"/>
+			
+			<Button
+				android:id="@+id/share"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:paddingBottom="15dp"
+				android:text="Compartilhar"
+				android:textSize="15dp"
+				android:textColor="#FF4183E7"
+				android:background="#00ffffff"
+				android:onClick="share"/>
+			
+			<Button
+			    android:id="@+id/btnFeed"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:paddingTop="1dp"
+			    android:paddingBottom="60dp"
+			    android:background="#00ffffff"
+			    android:text="FeedBack"
+			    android:textSize="15dp"
+			    android:textColor="#FF4183E7"
+			    android:onClick="send"/>
+
+        </LinearLayout>     
+	</ScrollView>
+
+</LinearLayout>

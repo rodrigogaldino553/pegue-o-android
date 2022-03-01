@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff777777">
+
+    <LinearLayout
+    	android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:id="@+id/ToolBar"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:background="@color/colorPrimary">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Pegue o Android"
+			android:textSize="20dp"
+			android:gravity="center"
+			android:textColor="#ffffffff"
+			android:layout_centerHorizontal="true"
+			android:textStyle="bold"/>
+
+		<ImageView
+		    android:id="@+id/iv"
+			android:layout_width="45px"
+			android:layout_height="45px"
+			android:paddingTop="5dp"
+			android:paddingLeft="20px"
+			android:layout_marginLeft="110dp"
+			android:src="@drawable/ic_more"
+			android:onClick="up"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+    	android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linear"
+		android:gravity="bottom"
+		android:onClick="lose"
+		android:background="@drawable/back"
+		android:orientation="vertical">
+		
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+		    <Button
+			    android:id="@+id/btn"
+			    android:layout_width="80dp"
+			    android:layout_height="80dp"
+			    android:gravity="center"
+			    android:background="@drawable/andro" 
+    	        android:onClick="pegue"/>
+    	     
+	    </LinearLayout>
+		
+    	<LinearLayout
+    	    android:id="@+id/bottom"
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:gravity="center"
+	        android:background="@color/colorPrimary"
+	        android:orientation="horizontal"
+	        android:onClick="clickDown">
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Score: "
+	            android:textColor="#ffffffff"
+	            android:textStyle="bold"/>
+
+	        <TextView
+	            android:id="@+id/txtScore"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="000"
+	            android:textColor="#ffffffff"
+	            android:textStyle="bold" />
+
+        </LinearLayout>
+	</LinearLayout>
+</LinearLayout>
